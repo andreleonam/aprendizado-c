@@ -79,7 +79,7 @@ int main(void){
     media_idade = (idade01 + idade02 + idade03) / 3.0;
 
     printf("\nMedia Idade: %.2f anos\n", media_idade);
-    printf("\nMedia Altura: %.2fm\n", media_altura);
+    printf("Media Altura: %.2fm\n", media_altura);
 
     return 0;
 }
