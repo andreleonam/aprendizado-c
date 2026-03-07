@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <locale.h>
 
 // protótipos
 void lerNumeros(double *a, double *b);
@@ -7,6 +8,7 @@ void lerNumerosInteiros(int *a, int *b);
 
 int main()
 {
+    setlocale(LC_ALL, "");
 
     int opcao, num_int01, num_int02, operacao_int;
     double num01, num02, operacao;
